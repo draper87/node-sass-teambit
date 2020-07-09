@@ -1,0 +1,10 @@
+// REGOLE JUMBO
+$illustration: "../../dist/img/";
+.jumbo {
+  &-text {
+    color: blue;
+  }
+  &-background {
+    background-image: url("#{$illustration}/illustration-main.jpg");
+  }
+}
