@@ -2,3 +2,13 @@
   background-color: pink;
   border: 1px solid red;
 }
+
+@mixin section-padding {
+  padding: 10px 0;
+}
+
+@mixin bottoni {
+  background-color: $colore-bottoni;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
