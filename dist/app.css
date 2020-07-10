@@ -64,3 +64,45 @@ nav .logo {
 nav .menu li {
   display: inline-block;
 }
+
+#main-intro {
+  background-color: #fee7d1;
+}
+#main-intro .container {
+  padding: 25px 0;
+}
+#main-intro .container h3 {
+  font-size: 28px;
+  text-align: center;
+  padding: 25px 0;
+  color: #5b4330;
+}
+#main-intro .container .intro-first {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 100%;
+}
+#main-intro .container .intro-first .screenbox img {
+  flex-basis: calc(100% / 6);
+}
+#main-intro .container .intro-first .screenbox:last-child {
+  margin: 0 auto;
+}
+#main-intro .container .intro-first .screenbox p {
+  text-align: center;
+  padding: 25px 0;
+  color: #5b4330;
+}
+
+#main-howitworks {
+  padding: 25px 0;
+  display: flex;
+}
+#main-howitworks .window {
+  flex-basis: 50%;
+}
+#main-howitworks .window img {
+  width: 100%;
+}
