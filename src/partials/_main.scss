@@ -17,9 +17,12 @@
       width: 100%;
       .screenbox {
         text-align: center;
-        @include debug;
         width: calc(100% / 3);
-        img {
+        img:not(:last-child) {
+          width: 80%;
+          height: 200px;
+        }
+        img:last-child {
           width: 100%;
         }
         &:last-child {
@@ -71,6 +74,12 @@
   background-color: $colore-sfondo;
   .container {
     .founders {
+      h2 {
+        font-size: 50px;
+        line-height: 64px;
+        word-spacing: 7px;
+        color: $colore-testo;
+      }
       @include section-padding;
       width: 40%;
       margin: 0 auto;
@@ -79,16 +88,14 @@
         background-color: white;
         border-radius: 5px;
         border: 1px solid blue;
-        padding: 5px;
+        padding: 20px;
+        margin: 10px 0;
       }
       &-credit {
         display: flex;
-        padding: 10px 0;
+        padding: 20px 0;
         img {
           padding: 0 5px;
-        }
-        &-text {
-
         }
       }
       .join-btn {
@@ -100,6 +107,9 @@
             height: 20px;
             vertical-align: text-bottom;
           }
+        }
+        p {
+          margin: 20px 0;
         }
       }
 

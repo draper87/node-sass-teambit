@@ -10,5 +10,19 @@ nav {
   }
   .menu li {
     display: inline-block;
+    margin-right: 10px;
+    &:last-child {
+      a {
+        color: white;
+      }
+      @include bottoni;
+      img {
+        height: 20px;
+        vertical-align: text-bottom;
+      }
+    }
+    a {
+      color: $colore-testo;
+    }
   }
 }
